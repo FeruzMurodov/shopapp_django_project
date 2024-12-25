@@ -1,0 +1,101 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Laptop",
+      "description": "",
+      "price": "1900.00",
+      "discount": 10,
+      "created_at": "2024-11-17T04:45:58.198Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Desktop",
+      "description": "",
+      "price": "2999.00",
+      "discount": 25,
+      "created_at": "2024-11-17T04:45:58.198Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 4,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, reprehenderit, suscipit? Aperiam cupiditate doloremque, earum eligendi exercitationem, fugit harum hic ipsa iste labore maiores minus quasi repudiandae sunt tempore temporibus veritatis voluptatem voluptatum? Architecto blanditiis dicta, doloremque id, iusto labore molestiae molestias odio perspiciatis quis sapiente sint. Ad dicta earum eligendi facere harum ipsa nulla sint. A accusantium ad adipisci amet animi asperiores autem, culpa dicta dolor ducimus eaque eos ex explicabo fugiat harum id ipsum iste itaque laudantium modi mollitia nisi non nulla officia quae, quas quibusdam quisquam, quo quod ratione repellat sapiente vero vitae. Ducimus laborum libero sunt!",
+      "price": "999.00",
+      "discount": 5,
+      "created_at": "2024-11-17T04:45:58.198Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "Tablet",
+      "description": "great tablet",
+      "price": "1234.00",
+      "discount": 0,
+      "created_at": "2024-11-19T10:03:10.321Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "Phone 3",
+      "description": "phone 3",
+      "price": "999.99",
+      "discount": 5,
+      "created_at": "2024-11-19T10:56:36.686Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "Tablet 2",
+      "description": "a new tablet",
+      "price": "1500.00",
+      "discount": 15,
+      "created_at": "2024-11-19T10:59:28.093Z",
+      "archived": false
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Phone 2 (new)",
+      "description": "a new phone +",
+      "price": "1000.00",
+      "discount": 5,
+      "created_at": "2024-11-19T13:54:36.472Z",
+      "archived": true
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "ul Pupkina, d 8",
+      "promocode": "SALE123",
+      "created_at": "2024-11-17T06:12:22.381Z",
+      "user": 1,
+      "products": [
+        3,
+        2,
+        4
+      ]
+    }
+  }
+]
